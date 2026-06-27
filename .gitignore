@@ -1,0 +1,21 @@
+# created by virtualenv automatically
+.venv/Lib
+
+# Virtual environment
+.venv/
+
+# IDE settings
+.idea/
+
+# Instagram export data (private!)
+instagram-itznottejas/
+*.json
+*.zip
+
+# Generated output (private!)
+output/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
