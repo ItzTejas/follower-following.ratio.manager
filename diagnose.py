@@ -11,7 +11,7 @@ for path in matches:
     data = json.loads(path.read_text(encoding="utf-8"))
     print(f"  top-level type: {type(data).__name__}")
 
-    # Drill down through any dict wrapping to the first list of records.
+    # Drills down through any dict wrapping to the first list of records.
     node = data
     while isinstance(node, dict):
         list_values = [v for v in node.values() if isinstance(v, list)]
